@@ -20,7 +20,7 @@ python -m pip install openai
 
 Para tener una key de la API de OpenAI, debes ingresar a la página de la [Plataforma de OpenAI](platform.openai.com) y te creas una cuenta Personal.
 
-Al entrar a la cuenta, te debe aparecer algo llamado "API Keys" y ahí puedes crear una key secreta. Lo copias y lo pegas.
+Al entrar a la cuenta, te debe aparecer algo llamado "API Keys" y ahí puedes crear una key secreta. Lo copias y lo pegas en *"program_keys.py"*.
 
 ```python
 api_key = "" 
