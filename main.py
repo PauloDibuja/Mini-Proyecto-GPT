@@ -1,8 +1,8 @@
 import openai
-import program_keys
+import keys
 import os
 
-openai.api_key = program_keys.api_key
+openai.api_key = keys.api_key
 
 def Separating_Line():
 	print("--------------------------------------")
