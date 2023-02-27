@@ -1,10 +1,12 @@
-# Python GPT by PauloDibuja
+# Mini Proyecto GPT
 
 Desarrollado por: PauloDibuja
 
 Año: 2023
 
 Versión: 1.0
+
+	Nota: Creado únicamente por entretención del programador
 
 ## Requerimientos
 
