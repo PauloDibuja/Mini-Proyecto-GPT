@@ -66,6 +66,8 @@ def Save_New_File(generated_text: str):
 		filename = "default"
 	if(filename.count(".") > 0):
 		filename = filename.split(".")[0]
+	if(os.path.exists("results") == False):
+		os.mkdir("results")
 	output = open("results/{}.txt".format(filename), "w", encoding="utf-8")
 	output.write("{}".format(generated_text))
 	output.close()
